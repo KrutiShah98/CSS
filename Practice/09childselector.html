@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>child selectors</title>
+</head>
+<style>
+    .a>h2{
+        background-color: blanchedalmond;
+        font-size: medium;
+    }
+    .b>h2{
+        background-color: blue;
+        font-weight: 700;
+    }
+</style>
+<body>
+   <h1>child selectors applies in child and defines with ></h1>
+   <div class="a">
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+    <div class="b">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+    </div>
+   </div>
+</body>
+</html>

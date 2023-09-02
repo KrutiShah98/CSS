@@ -174,22 +174,28 @@ input[type="text"] {
 
 .box6 {
     display: flex;
-    padding-top: 100px;
+   padding-top: 20px;
 
 }
-
-.img1 {
-    margin-top: 193px ;
-    display: inline-block;
+.c2{
+    margin-left: 250px;
+   
 }
-
-.b4 {
-    padding-left: 450px;
-
-
+.list{
+    margin: 20px;
 }
-
-.list {
-    padding: 10px;
-
+.img2{
+   margin-right: 10px;
+}
+.img-box{
+    display: flex;
+    margin-top: 160px;
+}
+.f1
+{
+    display: flex;
+}
+.hl{
+    margin: 80px;
+    
 }

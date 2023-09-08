@@ -1,0 +1,59 @@
+.banner-3 {
+    background-color: black;
+    height: 1000px;
+    padding: 152px;
+
+
+}
+
+.fb {
+    font-family: 'Gentona';
+    font-weight: 500;
+    line-height: 1;
+    color: white;
+
+    font-size: 48px;
+    display: block;
+    text-shadow: 1.152px 1.152px 0px #000000, 1.728px 1.728px 0px #92C83E;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-4 {
+    background-color: white;
+    height: 500px;
+    padding: 152px;
+}
+
+.fb3 {
+    font-size: 48px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'Gentona';
+    line-height: 1;
+    letter-spacing: -1px;
+
+}
+.tdimg{
+    padding: 20px;
+}
+.banner-5{
+    display: flex;
+    padding: 152px;
+    margin-top: 100px;
+}
+.text{
+    margin-left: 60px;
+    font-size: 50px;
+    margin-top: 94px;
+}

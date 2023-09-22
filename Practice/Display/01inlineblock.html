@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline block</title>
+    <style>
+        .main{
+            width: 100%;
+            height: 200px;
+            border: 2px solid green;
+        }
+        div[class*=box]
+        {
+            border: 2px khaki double;
+            height: 150px;
+            width: 200px;
+            padding: 15px;
+            margin: 5px;
+            background-color: brown;
+            color: bisque;
+            display: block;
+            display:contents;
+            display:inline;
+            display: inline-block;
+            
+        }
+        
+     
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box-1">home</div>
+    <div class="box-2">about</div>
+    <div class="box-3">contact</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Property</title>
+    <style>
+.container{
+    display: flex;
+    border: 5px black double;
+    height: 50px;
+    justify-content: space-around;
+    background-color: aqua;
+    color: brown;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: nowrap;
+    align-items: baseline;
+    align-items: center;
+    align-items: end;
+    align-items:flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+}
+    </style>
+ 
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">Logo</div>
+            <div class="home">Home</div>
+            <div class="abt">About</div>
+            <div class="contact">Contact</div>
+        </div>
+    </nav>
+</body>
+</html>

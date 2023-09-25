@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+
+        table,
+        td {
+            border: 1px solid black;
+            align-items: center;
+            /* background-color: aquamarine; */
+            width:500px;
+            padding: 5px;
+           border-collapse:collapse;    
+        }
+        /* tr:nth-child(1){
+            background-color: blueviolet;
+            color: rgb(159, 196, 39);
+            font-size: larger;
+        } */
+        tr:nth-child(odd){
+            background-color:rgb(104, 71, 82);
+        }
+        .rs{
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            border: 5px solid rgb(87, 42, 165);
+            overflow: hidden;
+            overflow: scroll;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Table in CSS</h1>
+    <div class="rs">
+    <table>
+        <tr>
+            <td>Sr.no</td>
+            <td>Roll no</td>
+            <td>Name</td>
+            <td>Team</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>34</td>
+            <td>Ashi</td>
+            <td>Red</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>35</td>
+            <td>Vandana</td>
+            <td>blue</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>85</td>
+            <td>Jagruti</td>
+            <td>Yellow</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>86</td>
+            <td>Siya</td>
+            <td>Purple</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>13</td>
+            <td>Jiya</td>
+            <td>Green</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>90</td>
+            <td>Jeni</td>
+            <td>Black</td>
+        </tr>
+
+    </table>
+</div>
+</body>
+
+</html>

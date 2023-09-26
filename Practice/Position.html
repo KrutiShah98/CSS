@@ -1,34 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POsition in CSS</title>
 </head>
 <style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.box-2{
-    po
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: bisque;
+    }
 
+    div[class*=box] {
+        border: 5px solid greenyellow;
+        width: 300px;
+        height: 300px;
+        color: azure;
+        text-align: center;
+        margin: 30px;
+    }
+.parent{
+    position: relative;
+}
+    .box-1 {
+        background-color: rgb(147, 116, 75);
+        position: absolute;
+        z-index: 3;
+        left: 499px;
+        top: 200px;
+    }
+
+    .box-2 {
+        background-color: rgb(124, 52, 11);
+        position: absolute;
+        left: 700px;
+        z-index: 1;
+        top: 200px;
+    }
+
+    .box-3 {
+        background-color: rgb(165, 126, 74);
+        z-index: 2;
+        left: 490px;
+        top: 150px;
+        position: absolute;
+
+    }
+
+    .box-4 {
+        background-color: rgb(35, 20, 1);
+        top: 500px;
+        position: absolute;
+    }
+
+    .box-5 {
+        background-color: rgb(237, 153, 43);
+    }
+    .nav{
+        position:fixed;
+        border: 5px double goldenrod;
+        width: 100%;
+        z-index: 4;
+    }
 </style>
+
 <body>
-    <ul>
+    <div class="nav">
+    <h1 align="center">Poisitions in Css</h1>
+    <ul align="center">
         <li>static</li>
         <li>fixed</li>
         <li>absolute</li>
         <li>Relative</li>
         <li>sticky</li>
     </ul>
-    <div class="box-1">A</div>
-    <div class="box-2">B</div>
+</div>
+    <hr>
+    <div class="parent">
+        <div class="box-1">A</div>
+        <div class="box-2">B</div>
+    </div>
+
     <div class="box-3">C</div>
     <div class="box-4">D</div>
     <div class="box-5">E</div>
-    
+
 </body>
+
 </html>
